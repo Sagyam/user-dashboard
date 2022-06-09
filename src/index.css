@@ -9,27 +9,9 @@
 		font-family: "Roboto", sans-serif;
 		background-image: linear-gradient(
 			320deg,
-			hsl(128deg 100% 20%) 0%,
-			hsl(132deg 100% 22%) 5%,
-			hsl(137deg 100% 23%) 10%,
-			hsl(141deg 100% 25%) 15%,
-			hsl(145deg 100% 26%) 20%,
-			hsl(149deg 100% 28%) 25%,
-			hsl(154deg 100% 29%) 30%,
-			hsl(158deg 100% 31%) 35%,
-			hsl(162deg 100% 32%) 40%,
-			hsl(166deg 100% 34%) 45%,
-			hsl(171deg 100% 35%) 50%,
-			hsl(175deg 100% 37%) 55%,
-			hsl(179deg 100% 38%) 60%,
-			hsl(183deg 100% 40%) 65%,
-			hsl(188deg 100% 41%) 70%,
-			hsl(192deg 100% 43%) 75%,
-			hsl(196deg 100% 44%) 80%,
-			hsl(200deg 100% 46%) 85%,
-			hsl(204deg 100% 47%) 90%,
-			hsl(209deg 100% 49%) 95%,
-			hsl(213deg 100% 50%) 100%
+			#141e30 0%,
+
+			#243b55 100%
 		);
 	}
 }

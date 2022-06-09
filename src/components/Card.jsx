@@ -6,7 +6,10 @@ import { MdEmail } from "react-icons/md";
 
 function Card({ user }) {
 	return (
-		<div className=" bg-slate-800 rounded-xl flex flex-col justify-center items-center p-5 tran hover:drop-shadow-xl hover:scale-105 hover:-translate-y-2 transition-transform">
+		<div
+			className=" bg-slate-800 rounded-xl flex flex-col justify-center items-center p-5 hover:drop-shadow-xl hover:border-blue-600 hover:border-2 hover:-translate-y-4 transition-transform"
+			id="card"
+		>
 			<img
 				className=" rounded-full ring-4 ring-offset-2 ring-blue-600 h-36 w-36 "
 				src="https://api.lorem.space/image/face?w=128&h=128"
