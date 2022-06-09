@@ -7,17 +7,19 @@ import { MdEmail } from "react-icons/md";
 function Card({ user }) {
 	return (
 		<div
-			className=" bg-slate-800 rounded-xl flex flex-col justify-center items-center p-5 hover:drop-shadow-xl hover:border-blue-600 hover:border-2 hover:-translate-y-4 transition-transform"
+			className=" bg-slate-900 rounded-xl flex flex-col justify-center items-center p-5 hover:drop-shadow-xl hover:border-blue-600 hover:border-2 hover:-translate-y-4 transition-transform"
 			id="card"
 		>
 			<img
 				className=" rounded-full ring-4 ring-offset-2 ring-blue-600 h-36 w-36 "
-				src="https://api.lorem.space/image/face?w=128&h=128"
+				src={`https://api.lorem.space/image/face?w=150&h=150&hash=${user.id}`}
 				alt={user.name}
 			/>
 			<div className="flex flex-col text-center text-gray-200 mt-8">
 				<h1 className="text-2xl font-bold mt-2">{user.name}</h1>
-				<p className="text-sm font-light">@{user.username}</p>
+				<p className="text-sm font-medium text-slate-400 lowercase">
+					@{user.username}
+				</p>
 				<p className="text-lg capitalize mt-2">{user.address.city}</p>
 				<p className="text-md mt-2">{user.company.catchPhrase}</p>
 			</div>
