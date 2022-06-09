@@ -11,7 +11,7 @@ function Card({ user }) {
 			id="card"
 		>
 			<img
-				className=" rounded-full ring-4 ring-offset-2 ring-blue-600 h-36 w-36 "
+				className=" rounded-full ring-4 ring-offset-0 ring-blue-600 h-36 w-36 "
 				src={`https://api.lorem.space/image/face?w=150&h=150&hash=${user.id}`}
 				alt={user.name}
 			/>
