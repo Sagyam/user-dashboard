@@ -1,10 +1,7 @@
+import UserList from "../src/pages/UserList";
 
 function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  );
+	return <UserList />;
 }
 
 export default App;
